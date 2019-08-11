@@ -1,0 +1,77 @@
+
+  .container{
+    display: flex;
+    height:96vh;
+    margin:  8px;
+  
+}
+
+.container2>div{
+  border: 1px solid black;
+}
+
+.container2{
+  flex:3;
+  
+}
+
+
+.box1{
+  flex:1;
+  overflow-y: scroll;
+  border: 1px solid black;
+  margin-right: 5px;
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  
+  
+}
+
+.box2{
+  
+  height: 60vh;
+  text-align: center;
+  overflow: auto;
+}
+
+.box3{
+ 
+  height: 35vh;
+  text-align: center;
+  overflow: auto;
+}
+
+button {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
